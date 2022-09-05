@@ -4,7 +4,7 @@ public class Post {
     public String patronymic;
     public String phone;
     public String passport;
-    public String subscription;
+    public boolean subscription;
     FormDate birthday = new FormDate();
 
     // добавьте другие поля

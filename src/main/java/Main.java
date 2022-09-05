@@ -4,13 +4,13 @@ public class Main {
         post.surname = "Иванович";
         post.name = "Иван";
         post.patronymic = "Иванов";
-        post.phone = "+79629648518";
+        post.phone = "+79629644452";
         post.passport = "4212 № 152356";
-        post.subscription = "true";
+        post.subscription = true;
         post.birthday = new FormDate();
-        post.birthday.day = "13";
-        post.birthday.month = "02";
-        post.birthday.year = "1812";
+        post.birthday.day = 13;
+        post.birthday.month = 02;
+        post.birthday.year = 1812;
         // заполните другие поля
     }
 }
